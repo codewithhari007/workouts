@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+   .input-field input {
+    font-size: 16px;
+    display: block;
+    font-family: rubik,sans-serif;
+    width: 30%;
+    padding: 10px 1px;
+    border: 0;
+    border-bottom: 1px solid #747474;
+    outline: none;
+    -webkit-transition: all .2s;
+    transition: all .2s;
+    background-image: url('assets/img/mail.svg');
+    background-repeat: no-repeat;
+    background-position: 10px 10px; 
+    position: absolute;
+    text-indent: 40px;
+}
+
+.input-text input {
+    font-size: 16px;
+    display: block;
+    font-family: rubik,sans-serif;
+    width: 30%;
+    padding: 10px 1px;
+    border: 0;
+    border-bottom: 1px solid #747474;
+    outline: none;
+    -webkit-transition: all .2s;
+    transition: all .2s;
+    background-image: url('assets/img/Vector.svg');
+    background-repeat: no-repeat;
+    background-position: 10px 10px; 
+    position: absolute;
+    text-indent: 40px;
+}
+
+ .container {
+  align-items: center; 
+  float: left;
+  width: 750%;
+  padding-left: 28%;
+  
+}
+.image{
+    float: left;
+    padding: 5px;
+    
+}
+/*
+
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+.left {
+  left: 0;
+}
+.right {
+  right: 0;
+   background-color: #000842; 
+} */
+
+/* .centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.centered img {
+  width: 550px;
+  border-radius: 50%;
+} */
+
+/* <style> */
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 100px;
+  height:  1000px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  /* padding: 20%; */
+  margin-top: 20%;
+  margin-bottom: 20%;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+.button {
+  background-color:blue; /* Green */
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  width: 75%;
+}
+.button4 {border-radius: 12px;}
+
+</style>
+</head>
+<body style="font-family:Verdana;">
+<div class="row">
+   
+    <div class="column" >
+        <h1 style=" position: absolute;
+        top: 8px;
+        left: 16px;
+        font-size: 18px;">your Logo</h1>
+    
+        <h2>Sign in</h2>
+        <p>If you don't have an account register</p>
+        <P> you <span style="color: darkblue;font-size: 100%;">Register here!</span></P>
+        <br>
+        <div>
+            <p>Email</p>
+            <div class='input-field' style="padding: 5px">
+                <input type="password" src="assets/img/mail.svg" alt="image" placeholder="Enter your email password" autocomplete="nope">
+            </div>
+        </div><br/> &nbsp; &nbsp; &nbsp;
+        
+        <div>
+            <p style="padding: 5px;">Password</p>
+            <div class='input-text'>
+                <input type="password" src="assets/img/Vector.svg" alt="image" placeholder="Enter your email password" autocomplete="nope">
+            </div>
+            </div>
+            <br>
+            <input    class="main"type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+        <label  class="main"><span>Remember me</span> &nbsp; &nbsp; &nbsp;
+            <span style=" text-indent: 100px;"> Forgot Password?</span>
+           
+            <input type="checkbox" checked="checked">
+            <span class="geekmark"></span>
+        </label>
+        <button class="button button4">Login</button>
+        <p style="align-items: center;padding-left: 30%;">or continue with</p>
+        <div class="container">
+            <div class="image"> <img src="assets/img/google.svg" alt="This is my image." height="50px"/> </div> 
+            <div class="image"> <img src="assets/img/apple.svg" alt="This is my second image." height="50px"/> </div> 
+           <div class="image"> <img src="assets/img/fb.svg" alt="My third image." height="50px"/> </div> 
+          </div>
+    </div>
+
+        <!-- <div class="split right">
+            <div class="centered"> -->
+                    <div class="column" style="background-color: #000842;   border-radius: 55px;padding: 50px;" >
+                        <div style=" position: absolute;
+                        top: 58px;
+                        right: 16px;
+                        padding-right: 5%;
+                        font-size: 18px;"><img src="assets/img/phone.svg" ><span style="color: white;">+94 0116 789 754</span></div>
+                
+                <!-- <span   position: absolute;top: 8px;right: 16px;font-size: 18px;" >+94 0116 789 754</span> -->
+              <img src="assets/img/man.svg" style="align-items: center;padding-left: 20%;padding-top: 15%; " alt="Avatar man">
+              <h2 style="color: white;">Sign into the name</h2>
+              <p style="color: white;">lorem ipsum is simply.</p>
+            </div>
+          </div>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- 
+<div class="container">
+    <p>parent works!</p>
+    <div *ngIf="users">
+        <p>users presents</p>
+        <div *ngFor=" let users of users; index as i first as isfirst;last as islast">
+            <div [ngSwitch]="users.sex">
+                <div class="male" *ngSwitchCase="'m'">
+                       first:{{isfirst}} {{users.name}}
+                </div>
+                <div class="female" *ngSwitchCase="'f'">
+                   last:{{islast}} {{users.name}}
+            </div>
+        </div>
+
+    </div>
+    <h1 ></h1>
+
+    <child  name="{{name}}" (senddata)="receivedata($event)"></child>
+   
+</div> -->
+  <!-- s-->
+    <!-- <child appCustomDir name="{{name}}" (senddata)="receivedata($event)"></child> -->  
+
+
+
+
+  <!-- <button  (click)="change()">structural directive</button>
+ <ng-template [appCustomDir]="display">
+    <p >
+        we can do anything try u r best hari
+    </p>
+</ng-template> 
+<table>
+    <tbody>
+        <tr *ngFor=" let data of data">
+            <ng-container *ngIf="data.name==='gopi'">
+            <td>
+                {{data.name}}
+            </td>
+        </ng-container>
+        </tr>
+    </tbody>
+</table> -->
+
+
+<!-- s-->
+ <!--<p appCustomDir *appCustomDir="display">
+    we can do anything try u r best hari
+</p> -->
+
